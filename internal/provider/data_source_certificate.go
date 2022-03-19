@@ -3,9 +3,9 @@ package provider
 import (
 	"crypto/tls"
 	"fmt"
+	"net/http"
 	"net/url"
 	"time"
-	"net/http"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 )
